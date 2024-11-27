@@ -1,8 +1,8 @@
 #Задача 1
-def task_1(a: int = 1, b: float = 2.5, c: str = 'three', d: list = [4, 5, 6], e: bool = True) -> int:
+def task_1(a: int, b: float, c: str, d: list, e: bool) -> int:
     print("int, float, str, list, bool")
     return a, b, c, d, e
-print(task_1())
+print(type(task_1(1, 2.5, 'three', [4, 5, 6], True)))
 print()
 
 #Задача 2
