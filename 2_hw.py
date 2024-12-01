@@ -1,9 +1,18 @@
 #Задача 1
-def task_1(a: int, b: float, c: str, d: list, e: bool) -> int:
-    print("int, float, str, list, bool")
-    return a, b, c, d, e
-print(type(task_1(1, 2.5, 'three', [4, 5, 6], True)))
-print()
+def task_1() -> None:
+    var_int: int = 42
+    var_float: float = 3.14
+    var_str: str = "Hello, World!"
+    var_list: list = [1, 2, 3, 4, 5]
+    var_bool: bool = True
+
+    print(f'Type of var_int: {type(var_int)}')
+    print(f'Type of var_float: {type(var_float)}')
+    print(f'Type of var_str: {type(var_str)}')
+    print(f'Type of var_list: {type(var_list)}')
+    print(f'Type of var_bool: {type(var_bool)}')
+
+task_1()
 
 #Задача 2
 a = [1, 2, 3, 5, 8, 13, 21]
