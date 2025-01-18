@@ -1,6 +1,6 @@
 from conftest import browser
-from pages.demoqa_page import DemoQa
-from pages.elements import ElementsPage
+from pythonTestProject.pages.demoqa_page import DemoQa
+from pythonTestProject.pages.elements import ElementsPage
 
 
 def test_check_text_footer(browser):

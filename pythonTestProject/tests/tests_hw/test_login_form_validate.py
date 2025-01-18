@@ -1,7 +1,5 @@
-import time
-
 from conftest import browser
-from pages.form_page import FormPage
+from pythonTestProject.pages.form_page import FormPage
 
 
 def test_login_form_validate(browser):

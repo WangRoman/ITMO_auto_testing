@@ -1,5 +1,5 @@
 from conftest import browser
-from pages.modal_dialogs import ModalDialogs
+from pythonTestProject.pages.modal_dialogs import ModalDialogs
 
 
 def test_modal_dialogs(browser):

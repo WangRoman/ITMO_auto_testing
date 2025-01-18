@@ -1,7 +1,7 @@
 import time
 
 from conftest import browser
-from pages.text_box_page import TextBox
+from pythonTestProject.pages.text_box_page import TextBox
 
 
 def test_text_box(browser):

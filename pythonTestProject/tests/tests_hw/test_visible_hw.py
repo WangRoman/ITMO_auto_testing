@@ -1,7 +1,7 @@
 import time
 
 from conftest import browser
-from pages.accordion import Accordion
+from pythonTestProject.pages.accordion import Accordion
 
 
 def test_visible_accordion(browser):
